@@ -55,7 +55,7 @@ private:
 	static SDLKeyMapStruct s_keyMap[];
 
 	// Vector to keep track of attached joysticks
-	std::vector<SDL_Joystick*> m_joysticks;
+	std::vector<SDL_GameController*> m_joysticks;
 
 	// Vector of joystick details
 	std::vector<JoyDetails> m_joyDetails;
